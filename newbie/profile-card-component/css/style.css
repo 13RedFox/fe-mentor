@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  color: #000;
+  background: #19a2ae;
+}
+
+.container {
+  max-width: 1440px;
+  height: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #19a2ae;
+}
+
+.card {
+  width: 350px;
+  height: 375px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 1px #2d3248;
+}
+.card__header {
+  position: relative;
+  height: 140px;
+}
+.card__header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5.5px solid #fff;
+  z-index: 1;
+}
+.card__content {
+  position: relative;
+  background: white;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #969696;
+}
+.card__content-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -48.6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 101px;
+  height: 101px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card__content-title {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 76px;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  margin: 0 5px 10px 0;
+}
+.card__content-title span {
+  font-weight: 400;
+}
+.card__content-city {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card__footer {
+  display: flex;
+  background: white;
+  padding: 27px 52px;
+}
+.card__footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__footer-wrap:nth-child(1) {
+  margin-right: 47.3px;
+}
+.card__footer-wrap:nth-child(2) {
+  margin-right: 57.3px;
+}
+.card__footer-wrap p {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.card__footer-wrap span {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=style.css.map */
